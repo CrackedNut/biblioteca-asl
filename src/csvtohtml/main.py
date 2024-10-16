@@ -14,7 +14,7 @@ print(booklist)
 catd = "/Users/luis/libasl/biblioteca-asl/src/catalogodispense.html"
 with open(catd, "w") as c:
     count = 1
-    c.write("<!DOCTYPE html>\n<html><style>table, th, td {border:1px solid black;}</style><head><title>Catalogo dispense</title></head>\n<body><h1>Catalogo Dispense Aula Studio Liberata </h1></b>\n<table>")
+    c.write("<!DOCTYPE html>\n<html><style>table, th, td {border:1px solid black;}</style><head><title>Catalogo dispense</title></head>\n<body><h1>Catalogo Dispense Aula Studio Liberata </h1>\n<table>")
     c.write("<tr>\n <th>N°</th><th>Titolo</th>\n   <th>Autore</th>\n   <th>Editore</th>\n <th>Area</th>\n</tr>\n")
     for b in booklist:
         c.write("<tr>\n")
@@ -38,7 +38,7 @@ print(booklist)
 catl = "/Users/luis/libasl/biblioteca-asl/src/catalogolibri.html"
 with open(catl, "w") as c:
     count = 1
-    c.write("<!DOCTYPE html>\n<html><style>table, th, td {border:1px solid black;}</style><head><title>Catalogo libri</title></head>\n<body><h1>Catalogo Libri Aula Studio Liberata </h1></b>\n<table>")
+    c.write("<!DOCTYPE html>\n<html><style>table, th, td {border:1px solid black;}</style><head><title>Catalogo libri</title></head>\n<body><h1>Catalogo Libri Aula Studio Liberata </h1>\n<table>")
     c.write("<tr>\n <th>N°</th><th>Titolo</th>\n   <th>Autore</th>\n   <th>Editore</th>\n <th>Scaffale</th>\n</tr>\n")
     for b in booklist:
         c.write(f"<tr>\n<td>{count}</td>")
