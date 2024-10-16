@@ -1,4 +1,4 @@
-#PERSONE INFORMATICAMENTE STUDIATE CHE VEDETE STA ROBA ORRENDA NON ROMPETE IL CAZZO PERCHÉ SO BENE QUANTO FACCIA SCHIFO
+#Lo so che è scritto malissimo <3
 
 import csv
 f = "/Users/luis/libasl/biblioteca-asl/data/catd.csv"
